@@ -37,7 +37,7 @@
     // Function that displays all of the gifs
     function displayGifs(){
         var food = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=hcZ5LDFepAckCSKBBOds2RUFKvjS9HML";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=hcZ5LDFepAckCSKBBOds2RUFKvjS9HML";
         console.log(queryURL); 
         $.ajax({
             url: queryURL,
