@@ -1,4 +1,4 @@
-$(document ).ready(function() {
+$( document ).ready(function() {
     // An array of food, new food will be pushed into this array;
     var food = ["Popcorn", "Cake", "Popsicles", "Pizza", "Milk", "Corn"];
     // Function that displays all gif buttons
